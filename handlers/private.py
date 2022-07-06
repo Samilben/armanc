@@ -8,21 +8,21 @@ from helpers.filters import command, other_filters2
 @Client.on_message(command(["start", f"start@{BOT_USERNAME}"]))
 async def start(_, message: Message):
                 await message.reply_photo(
-                "https://ibb.co/wQ4WN7D",
+                "https://ibb.co/WDtb90W",
                 caption=(f"""**Merhaba {message.from_user.mention} 🎵\nBen {bot}!\nSesli sohbetlerde müzik çalabilen botum. Ban yetkisiz, Ses yönetimi yetkisi verip, Asistanı gruba ekleyiniz.\n\nDüzen Tasarım [Destek](https://t.me/SohbetimAlfa).**"""),
          reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/OxygenMusicLiteBot?startgroup=true"
+                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/Masal_Muzik_Bot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/oxygenmusicasistan"
+                        "🔊 Asistan", url="https://t.me/MasalMuzikAsistant"
                     ),
                     InlineKeyboardButton(
-                        "💬 Sohbet", url="https://t.me/SohbetimAlfa"
+                        "💬 Sohbet", url="https://t.me/baron_imparatorlugu"
                     )
                 ],
                 [
@@ -30,7 +30,7 @@ async def start(_, message: Message):
                         "🧩 Komutlar" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Resmi Kanal 🇹🇷", url=f"https://t.me/Samilbots"
+                        "Resmi Kanal 🇹🇷", url=f"https://t.me/umudumuzukirdilar"
                     )
                 ]
                 
@@ -56,7 +56,7 @@ async def bilgi(_, message: Message):
                          "Ana menü🏠", callback_data="cbstart")
                  ],[
                      InlineKeyboardButton(
-                         "⚙ Geliştirici", url="https://t.me/Samilben")
+                         "⚙ Geliştirici", url="https://t.me/armanc_bey")
                  ]
              ]
          )
@@ -95,7 +95,7 @@ async def herkes(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "⚙ Geliştirici", url="https://t.me/Samilben")
+                         "⚙ Geliştirici", url="https://t.me/armanc_bey")
                  ],
                  [
                      InlineKeyboardButton(
@@ -113,7 +113,7 @@ async def admin(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "⚙ Geliştirici", url="https://t.me/Samilben")
+                         "⚙ Geliştirici", url="https://t.me/armanc_bey")
                  ],
                  [
                      InlineKeyboardButton(
@@ -131,15 +131,15 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/OxygenmusicliteBot?startgroup=true"
+                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/Masal_Muzik_Bot"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/oxygenmusicasistan"
+                        "🔊 Asistan", url="https://t.me/MasalMuzikAsistant"
                     ),
                     InlineKeyboardButton(
-                        "💬 Sohbet", url="https://t.me/SohbetimAlfa"
+                        "💬 Sohbet", url="https://t.me/baron_imparatorlugu"
                     )
                 ],
                 [
@@ -147,7 +147,7 @@ async def cbstart(_, query: CallbackQuery):
                         "🌀 Komutlar" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Resmi Kanal 🇹🇷", url=f"https://t.me/Samilbots"
+                        "Resmi Kanal 🇹🇷", url=f"https://t.me/umudumuzukirdilar"
                     )
                 ]
                 
