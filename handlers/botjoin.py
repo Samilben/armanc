@@ -67,7 +67,7 @@ async def rem(USER, message):
         return
 
 
-@Client.on_message(filters.command(["maho"]))
+@Client.on_message(filters.command(["Samil"]))
 async def bye(client, message):
     if message.from_user.id in SUDO_USERS:
         left = 0
