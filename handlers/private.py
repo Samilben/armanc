@@ -14,7 +14,7 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/Masal_Muzik_Bot?startgroup=true"
+                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/masalmuzikBot?startgroup=true"
                     )
                 ],
                 [
@@ -131,7 +131,7 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/Masal_Muzik_Bot"
+                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/masalmuzikBot"
                     )
                 ],
                 [
